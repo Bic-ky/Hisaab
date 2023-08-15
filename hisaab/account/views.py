@@ -67,3 +67,4 @@ def myAccount(request):
 @login_required
 def adminDashboard(request):
     return render(request, 'account/dashboard.html')
+
